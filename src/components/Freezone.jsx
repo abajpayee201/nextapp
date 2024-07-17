@@ -548,7 +548,7 @@ export default function () {
 
 
 
-<Faqs f="Freezone"/>
+<Faqs f="freezone"/>
 
 
 
