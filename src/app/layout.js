@@ -1,5 +1,15 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "./custom.css"
+import "./bootstrap.min.css"
+import "./category-testmonials.css"
+
+
+
+import Head from "next/head";
+import Script from "next/script";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +21,53 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+
+      <Head>
+
+        <meta charSet="UTF-8" />
+        <link rel="shortcut icon" href="#" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Your Preparation Partner for Law Entrance Exams | CL-LST</title>
+        <meta
+          name="description"
+          content="Prepare with CL's Law School Tutorials(CL-LST) to secure top ranks in CLAT, AILET, & OLETs. Find useful resources, preparation programs, & more related to law entrance exams."
+        />
+        <meta
+          name="keywords"
+          content="Law, Lawyer, Law Entrance Exam, Law Entrance Exam Preparation, CLAT Preparation, AILET Preparation, CL-LST"
+        />
+        <meta
+          property="og:title"
+          content="Your Preparation Partner for Law Entrance Exams | CL-LST"
+        />
+        <meta
+          property="og:type"
+          content="Prepare with CL's Law School Tutorials(CL-LST) to secure top ranks in CLAT, AILET, & OLETs. Find useful resources, preparation programs, & more related to law entrance exams."
+        />
+        <meta property="og:image" content="images/Lst-OG.png" />
+       
+
+
+      </Head>
+      <body >
+        <Navbar />
+        {children}
+        <Footer/>
+
+
+        <Script src="https://kit.fontawesome.com/af2cf86225.js" crossorigin="anonymous"/>
+
+
+        <Script src="assets/js/Footer-new.js" strategy="beforeInteractive"/>
+
+        <Script src="assets/js/formValidation.js" strategy="beforeInteractive"/>
+        <Script src="assets/js/jquery.easy-ticker.js" strategy="beforeInteractive"/>
+        <Script src="assets/js/bootstrap.bundle.min.js"/>
+        <Script src="assets/js/slick.min.js" strategy="beforeInteractive"/>
+        <Script src="assets/js/custom.js" strategy="beforeInteractive"/>
+
+
+      </body>
     </html>
   );
 }
