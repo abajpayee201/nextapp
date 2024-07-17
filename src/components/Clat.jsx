@@ -1,5 +1,5 @@
 "use client"
-import Faqs from "@/Components/Faqs";
+import Faqs from "./Faqs";
 
 
 
