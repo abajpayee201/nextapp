@@ -1,4 +1,4 @@
-import Faqs from "../Components/Faqs";
+import Faqs from "@/Components/Faqs";
 
 
 
