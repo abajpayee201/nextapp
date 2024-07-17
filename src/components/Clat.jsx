@@ -9,7 +9,7 @@ function Clat() {
     return (
       < >
          
-         <div class="share-icon"><a href="https://t.me/LST4LAW"><i class="fa-brands fa-telegram"></i></a><a onclick="return _e(&quot;Head_Icons&quot;,&quot;Click&quot;,&quot;Whatsapp&quot;,5)" href="https://api.whatsapp.com/send?phone=9958760011" target="blank" data-original-title="WhatsApp 9958760011"><i class="fa-brands fa-whatsapp"></i></a><a href="tel:8130038836"><i class="fa-solid fa-phone"></i></a></div>
+         <div className="share-icon"><a href="https://t.me/LST4LAW"><i className="fa-brands fa-telegram"></i></a><a onclick="return _e(&quot;Head_Icons&quot;,&quot;Click&quot;,&quot;Whatsapp&quot;,5)" href="https://api.whatsapp.com/send?phone=9958760011" target="blank" data-original-title="WhatsApp 9958760011"><i className="fa-brands fa-whatsapp"></i></a><a href="tel:8130038836"><i className="fa-solid fa-phone"></i></a></div>
          
          
 
@@ -21,33 +21,33 @@ function Clat() {
 
 
 
-            <section class="banner clat-css bullet">
-                <div class="container">
+            <section className="banner clat-css bullet">
+                <div className="container">
 
                     <nav aria-label="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item" property="itemListElement" typeof="ListItem">
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item" property="itemListElement" typeof="ListItem">
                                 <a href="/" property="item" typeof="WebPage">
                                     <span property="name">Home</span>
                                 </a>
                                 <meta property="position" content="1" />
                             </li>
 
-                            <li class="breadcrumb-item active" aria-current="page" property="itemListElement" typeof="ListItem">
+                            <li className="breadcrumb-item active" aria-current="page" property="itemListElement" typeof="ListItem">
                                 <span property="name">CLAT</span>
                                 <meta property="position" content="2" />
                             </li>
                         </ol>
                     </nav>
 
-                    <div class="row">
-                        <div class="col-lg-3">
+                    <div className="row">
+                        <div className="col-lg-3">
                             <h1>CLAT (UG)</h1>
                         </div>
 
-                        <div class="col-lg-9">
+                        <div className="col-lg-9">
 
-                            {/* <!-- <p class="update"><span class="brand-orange">Updated on 17th April 2024 | 4:12 PM | #CLATExam2025</span></p> --> */}
+                            {/* <!-- <p className="update"><span className="brand-orange">Updated on 17th April 2024 | 4:12 PM | #CLATExam2025</span></p> --> */}
                             <p>CLAT or Common Law Admission Test, is a national-level entrance exam for admission to
                                 undergraduate (UG) law courses. It's accepted by 26 National Law Universities (NLUs) and various
                                 other colleges/universities across India.</p>
@@ -65,7 +65,7 @@ function Clat() {
                             </ul>
 
 
-                            <form name="clForm" action="/api/addcounselling" id="clForm" class="d-flex flex-wrap margin-top-10" method="post"
+                            <form name="clForm" action="/api/addcounselling" id="clForm" className="d-flex flex-wrap margin-top-10" method="post"
                                 onsubmit="return false;">
                                 <input type="hidden" name="utm_source" value='Website' />
                                 <input type="hidden" name="utm_campaign" value='CLAT prep' />
@@ -86,14 +86,14 @@ function Clat() {
                                 <input type="hidden" name="redirectUrl" value="https://www.lawentrance.com/thankyou.jsp" />
                                 <input type="hidden" name="eOtp" id="eOtp" value="" />
 
-                                <div class="input-group mb-3">
-                                    <input class="form-control" a type="tel" name="mobile" id="mobile"
+                                <div className="input-group mb-3">
+                                    <input className="form-control" a type="tel" name="mobile" id="mobile"
                                         placeholder="Enter Mobile No." pattern="[6-9][0-9]{9}"
                                         title="Mobile number should start with 6, 7, 8, or 9 and contain at least 10 digits."
                                         required />
 
-                                    {/* <!--<button type="submit" class="btn cta w-100" value="Get FREE Counselling" onclick="sendOtp(1)">Get FREE Counselling </button> --> */}
-                                    <input class="btn cta" type="submit" value="Get FREE Counselling" onclick="sendOtp(1)" />
+                                    {/* <!--<button type="submit" className="btn cta w-100" value="Get FREE Counselling" onclick="sendOtp(1)">Get FREE Counselling </button> --> */}
+                                    <input className="btn cta" type="submit" value="Get FREE Counselling" onclick="sendOtp(1)" />
                                 </div>
 
                             </form>
@@ -104,18 +104,18 @@ function Clat() {
             </section>
 
 
-            <section class="midd-portion detalts bg-grey clta">
-                <div class="container">
-                    <div class="row">
+            <section className="midd-portion detalts bg-grey clta">
+                <div className="container">
+                    <div className="row">
 
-                        <div class="col-lg-12 bullet">
+                        <div className="col-lg-12 bullet">
                             <h3>CLAT 2025: Details</h3>
                             <p>This page is periodically updated and includes Consortium announcements for academic years
                                 2024-2025. CLAT 2025 is on the way, and the best practice is to know about the test details in
                                 advance.</p>
 
-                            <div class="table-responsive">
-                                <table class="table table-striped">
+                            <div className="table-responsive">
+                                <table className="table table-striped">
                                     <tbody>
                                         <tr>
                                             <td>
@@ -199,8 +199,8 @@ function Clat() {
                                 <h3>CLAT 2025: Important Dates</h3>
                                 <p>Based on the previous year's revised deadlines for the exam announced by the consortium, here are
                                     the important dates the candidate should keep a note of.</p>
-                                <div class="table-responsive">
-                                    <table class="table table-striped">
+                                <div className="table-responsive">
+                                    <table className="table table-striped">
                                         <tbody>
                                             <tr>
                                                 <td>
@@ -286,8 +286,8 @@ function Clat() {
                                     <p><strong>Every question carries 1 mark, and 0.25 points will be deducted for every wrong
                                         answer.</strong></p>
 
-                                    <div class="table-responsive">
-                                        <table class="table table-striped">
+                                    <div className="table-responsive">
+                                        <table className="table table-striped">
                                             <tbody>
                                                 <tr>
                                                     <td>
@@ -420,7 +420,7 @@ function Clat() {
                                     <hr/>
 
                                         <h3>CLAT 2025: Eligibility Criteria (Tentative)</h3>
-                                        <h5 class="brand-purple">Educational Qualification</h5>
+                                        <h5 className="brand-purple">Educational Qualification</h5>
                                         <p>Any applicant who has passed the 10+2 or an equivalent examination can apply for the 2025 exam.
                                             The minimum marks required for different categories are listed below:</p>
                                         <ul>
@@ -432,7 +432,7 @@ function Clat() {
                                             exam. Candidates who fail to fulfill this
                                             will be rejected and lose their right to admission.</p>
 
-                                        <h5 class="brand-purple">Age Limit</h5>
+                                        <h5 className="brand-purple">Age Limit</h5>
                                         <p>CLAT doesn't have an age limit. As long as you meet the eligibility criteria you can give the
                                             exam.</p>
 
@@ -448,8 +448,8 @@ function Clat() {
                                             preference.</strong></p>
                                         <p>Here is a list of cities where the Exam Centres are located.</p>
 
-                                        <div class="table-responsive">
-                                            <table class="table table-striped">
+                                        <div className="table-responsive">
+                                            <table className="table table-striped">
                                                 <tbody>
                                                     <tr>
                                                         <td>
@@ -756,13 +756,13 @@ function Clat() {
                                                     test.</li>
                                             </ul>
 
-                                            <h5 class="brand-purple">Make and design a study plan</h5>
+                                            <h5 className="brand-purple">Make and design a study plan</h5>
                                             <p>Candidates studying for the exam should follow a well-organized study schedule. They must
                                                 complete a large curriculum, therefore, they must study at least 6-7 hours every day. It is
                                                 recommended that you complete the CLAT course at
                                                 least two months before the test so that you have enough time for review.</p>
 
-                                            <h5 class="brand-purple">Improve your speed and accuracy</h5>
+                                            <h5 className="brand-purple">Improve your speed and accuracy</h5>
                                             <p>Candidates have to read and attempt around 120 questions in 120 minutes which requires reading
                                                 around 18-20 passages of around 350 - 450 words. They must have extraordinary reading abilities
                                                 in order to read all of these passages and
@@ -774,7 +774,7 @@ function Clat() {
                                                 particularly those from legal publications,
                                                 while studying for the examination.</p>
 
-                                            <h5 class="brand-purple">Solve mock tests and sample papers</h5>
+                                            <h5 className="brand-purple">Solve mock tests and sample papers</h5>
                                             <p>It is recommended that aspirants should attempt as many mock exams and past year questions as
                                                 possible. Toppers recommend that students do 80-100 practice examinations during their CLAT
                                                 preparation. It is even more important to analyze
@@ -791,8 +791,8 @@ function Clat() {
                                                 <p>For an exam as competitive as CLAT or AILET, it is best to know where you stand in the
                                                     competition of over 45,000 legal aspirants. And nothing prepares you for a challenge better than
                                                     taking it head on!</p>
-                                                <div class="gap-2 d-md-block">
-                                                    <a href="/freezone/" class="btn cta">Take your FREE Mock Test</a>
+                                                <div className="gap-2 d-md-block">
+                                                    <a href="/freezone/" className="btn cta">Take your FREE Mock Test</a>
                                                 </div>
 
 

@@ -50,7 +50,7 @@ function Footer() {
                                     <li><a href="/article/">Article</a></li>
                                     <li><a href="/blogs/">Blogs</a></li>
                                     <li><a href="/webinar/">Webinars</a></li>
-                                    <li><a href="/faq.jsp">FAQs</a></li>
+                                    <li><a href="/faqs">FAQs</a></li>
                                 </ul>
                             </div>
                         </div>
